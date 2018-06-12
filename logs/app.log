@@ -1,0 +1,56 @@
+27.05.2018 21:20:10.423 [main] INFO  ru.aizen.Main - ------------------------------ Старт ------------------------------
+27.05.2018 21:20:10.424 [main] INFO  ru.aizen.Main - Число записей = 10000
+27.05.2018 21:20:11.050 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Очищаем таблицу TBL_TEST
+27.05.2018 21:20:11.357 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Вставляем данные в таблицу TBL_TEST...
+27.05.2018 21:20:11.586 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Таблица заполнена за 0.228 с.
+27.05.2018 21:20:11.586 [main] INFO  ru.aizen.service.XmlService - Пишем значение полей field таблицы TBL_TEST в файл 1.xml
+27.05.2018 21:20:11.592 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Получаем данные из таблицы TBL_TEST...
+27.05.2018 21:20:11.608 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Данные получены за 0.016 с.
+27.05.2018 21:20:11.644 [main] INFO  ru.aizen.service.XmlService - Запись завершена за 0.058 с.
+27.05.2018 21:20:11.661 [main] INFO  ru.aizen.service.XmlService - Трансформация 1.xml в 2.xml с помощью XSL /transform.xsl
+27.05.2018 21:20:12.037 [main] INFO  ru.aizen.service.XmlService - Трансформация прошла успешно за 0.375 с.
+27.05.2018 21:20:12.054 [main] INFO  ru.aizen.service.XmlService - Подсчитываем сумму всех значений атрибутов field в файле 2.xml
+27.05.2018 21:20:12.208 [main] INFO  ru.aizen.Main - Сумма: 50005000
+27.05.2018 21:20:12.210 [main] INFO  ru.aizen.Main - Общее время выполнения программы: 1.786 с.
+27.05.2018 21:20:23.720 [main] INFO  ru.aizen.Main - ------------------------------ Старт ------------------------------
+27.05.2018 21:20:23.720 [main] INFO  ru.aizen.Main - Число записей = 1000000
+27.05.2018 21:20:24.043 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Очищаем таблицу TBL_TEST
+27.05.2018 21:20:24.334 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Вставляем данные в таблицу TBL_TEST...
+27.05.2018 21:20:26.978 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Таблица заполнена за 2.643 с.
+27.05.2018 21:20:26.978 [main] INFO  ru.aizen.service.XmlService - Пишем значение полей field таблицы TBL_TEST в файл 1.xml
+27.05.2018 21:20:26.983 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Получаем данные из таблицы TBL_TEST...
+27.05.2018 21:20:27.460 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Данные получены за 0.476 с.
+27.05.2018 21:20:28.520 [main] INFO  ru.aizen.service.XmlService - Запись завершена за 1.542 с.
+27.05.2018 21:20:28.771 [main] INFO  ru.aizen.service.XmlService - Трансформация 1.xml в 2.xml с помощью XSL /transform.xsl
+27.05.2018 21:20:31.298 [main] INFO  ru.aizen.service.XmlService - Трансформация прошла успешно за 2.526 с.
+27.05.2018 21:20:31.743 [main] INFO  ru.aizen.service.XmlService - Подсчитываем сумму всех значений атрибутов field в файле 2.xml
+27.05.2018 21:20:32.469 [main] INFO  ru.aizen.Main - Сумма: 500000500000
+27.05.2018 21:20:32.471 [main] INFO  ru.aizen.Main - Общее время выполнения программы: 8.75 с.
+27.05.2018 21:20:41.128 [main] INFO  ru.aizen.Main - ------------------------------ Старт ------------------------------
+27.05.2018 21:20:41.129 [main] INFO  ru.aizen.Main - Число записей = 10000000
+27.05.2018 21:20:41.457 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Очищаем таблицу TBL_TEST
+27.05.2018 21:20:41.879 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Вставляем данные в таблицу TBL_TEST...
+27.05.2018 21:21:04.944 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Таблица заполнена за 23.065 с.
+27.05.2018 21:21:04.945 [main] INFO  ru.aizen.service.XmlService - Пишем значение полей field таблицы TBL_TEST в файл 1.xml
+27.05.2018 21:21:04.955 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Получаем данные из таблицы TBL_TEST...
+27.05.2018 21:21:11.504 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Данные получены за 6.549 с.
+27.05.2018 21:21:23.451 [main] INFO  ru.aizen.service.XmlService - Запись завершена за 18.507 с.
+27.05.2018 21:21:24.698 [main] INFO  ru.aizen.service.XmlService - Трансформация 1.xml в 2.xml с помощью XSL /transform.xsl
+27.05.2018 21:21:41.524 [main] INFO  ru.aizen.service.XmlService - Трансформация прошла успешно за 16.826 с.
+27.05.2018 21:21:42.722 [main] INFO  ru.aizen.service.XmlService - Подсчитываем сумму всех значений атрибутов field в файле 2.xml
+27.05.2018 21:21:50.021 [main] INFO  ru.aizen.Main - Сумма: 50000005000000
+27.05.2018 21:21:50.022 [main] INFO  ru.aizen.Main - Общее время выполнения программы: 68.893 с.
+27.05.2018 21:21:56.106 [main] INFO  ru.aizen.Main - ------------------------------ Старт ------------------------------
+27.05.2018 21:21:56.107 [main] INFO  ru.aizen.Main - Число записей = 1
+27.05.2018 21:21:56.454 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Очищаем таблицу TBL_TEST
+27.05.2018 21:21:57.708 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Вставляем данные в таблицу TBL_TEST...
+27.05.2018 21:21:57.818 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Таблица заполнена за 0.11 с.
+27.05.2018 21:21:57.819 [main] INFO  ru.aizen.service.XmlService - Пишем значение полей field таблицы TBL_TEST в файл 1.xml
+27.05.2018 21:21:57.870 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Получаем данные из таблицы TBL_TEST...
+27.05.2018 21:21:57.883 [main] INFO  ru.aizen.dao.SQLiteTestDAO - Данные получены за 0.013 с.
+27.05.2018 21:21:57.894 [main] INFO  ru.aizen.service.XmlService - Запись завершена за 0.075 с.
+27.05.2018 21:21:57.902 [main] INFO  ru.aizen.service.XmlService - Трансформация 1.xml в 2.xml с помощью XSL /transform.xsl
+27.05.2018 21:21:58.110 [main] INFO  ru.aizen.service.XmlService - Трансформация прошла успешно за 0.208 с.
+27.05.2018 21:21:58.117 [main] INFO  ru.aizen.service.XmlService - Подсчитываем сумму всех значений атрибутов field в файле 2.xml
+27.05.2018 21:21:58.188 [main] INFO  ru.aizen.Main - Сумма: 1
+27.05.2018 21:21:58.189 [main] INFO  ru.aizen.Main - Общее время выполнения программы: 2.081 с.
